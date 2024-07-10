@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #fbd146;
+    padding: 20px 0;
+    text-align: start; /* Correção aqui: este valor não existe. Use 'left' ou 'right' */
+}
+
+.header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.cta-button {
+    background-color: #ff0576;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero {
+    text-align: left;
+    margin: 20px 20px;
+}
+
+.hero img {
+    width: 50%;
+    max-width: 600px;
+    border-radius: 50px;
+    margin-left: 200px;
+}
+
+.features {
+    background-color: #fff4e3;
+    padding: 40px 0;
+}
+
+.features h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.features-grid {
+    display: flex;
+    justify-content: space-around;
+}
+
+.feature {
+    max-width: 250px;
+    text-align: center;
+}
+
+.how-it-works {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+}
+
+.how-it-works h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-around;
+}
+
+.step {
+    max-width: 200px;
+    text-align: center;
+}
+
+.testimonials {
+    background-color: #fff4e3;
+    padding: 40px 0;
+}
+
+.testimonials h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.testimonial {
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.user-name {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.partners {
+    padding: 40px 0;
+}
+
+.partners h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.partners-logos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cta {
+    background-color: #e83e8c;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+.subscribe-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.subscribe-form input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.subscribe-form button {
+    background-color: #e83e8c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.logo {
+    border-radius: 30px;
+}
